@@ -1,0 +1,85 @@
+
+        .carousel-item {
+            height: 95vh;
+            background-color: rgb(99, 97, 94);
+            position: relative;
+        }
+        .container {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            padding-bottom: 50px;
+        }
+        .overlay-image {
+            position: absolute;
+            background-size: cover;
+            background-position: center;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+        .btn-sub {
+          width: 150px;
+        }
+  .nav-item a:hover {
+    background-color: cadetblue;
+  }
+
+.navbar-nav a {
+    transition: all 1s ease;
+
+}
+
+.quick__link a:hover {
+    background-color: blue;
+}
+ .fa-brands {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    padding: 5px;
+}
+
+img {
+    padding: 2px;
+    border: 1px solid gray;
+}
+
+@media (min-width: 215px) {
+    nav .navbar-brand {
+        display: block;
+        margin: 0 auto;
+    }
+    nav button {
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    nav .navbar-brand {
+        display: none;
+        
+    }
+    
+}
+@media (min-width: 993px) {
+    nav .text-navbar {
+        display: block;
+        
+    }
+    
+}
+ @media (max-width: 992px) {
+    nav .text-navbar {
+        display: none;
+        
+    }
+    
+} 
+
